@@ -32,7 +32,7 @@ function renderAnime(anime) {
             <img src="${anime.images.jpg.image_url}" />
             <h3>${anime.title}</h3>
             <p>⭐ ${anime.score ?? "N/A"}</p>
-            <p>${anime.episodes ?? "?"} episodes</p>
+            <p>📺${anime.episodes ?? "?"} episodes</p>
         </div>
     `;
 
