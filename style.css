@@ -65,6 +65,7 @@ input[type='search'] {
 }
 
 .card {
+    padding: 5px;
     background: #1a0035;
     border-radius: 12px;
     overflow: hidden;
